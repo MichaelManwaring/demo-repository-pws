@@ -1,0 +1,31 @@
+/*Styles for all pages*/
+body{}
+header{}
+header > h1{
+	color: orange;
+}
+nav{}
+nav > h1{}
+nav > a{}
+.page{}
+footer{}
+
+/*Styles for Home*/
+.aboutme{}
+
+
+/*Styles for Coding*/
+.gallery{}
+.gallery > article{}
+.mine{}
+.mycode{}
+.coollinks{}
+.other{}
+
+
+/*Styles for Music*/
+
+
+
+/*Styles for eegg*/
+

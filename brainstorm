@@ -1,0 +1,21 @@
+Personal Web site
+
+Layout:
+
+-home
+-coding
+---things I've done
+---things I think are neat
+-music
+-easter egg page
+
+Steps(git between each):
+-Set up
+---Gather preliminary media
+---set up shell pages
+-build structure in html
+-style
+---find websites that have cool styles to emulate
+---flesh out CSS
+-show to someone else for criticism
+
