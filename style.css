@@ -1,57 +1,97 @@
 /*Styles for all pages*/
-body{
-	background-image: url(sky.jpg);
-	background-size: 300%;
-	background-repeat: repeat;
-	background-position: center;
+html{
+	width: 100%;
+	height:100%;
+	background:url(island.jpg) center center no-repeat;
 	background-color: rgba(255,170,127,0.5);
-	font-family: helvetica;
+	font-family: Verdana, sans-serif;
+	color:#555;
 }
 header{
 	width: 100%;
 	text-align: center;
-	background-color: rgba(219,219,219,0.7);
+	/*background-color: rgba(219,219,219,0.7);*/
 }
-header > h1{
-	font: bold 5vw georgia serif;
+header>h1{
+	font: bold ;
 }
+
+
 nav{
-	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 130px;
 	text-align: center;
-	background-color: rgba(219,219,219,0.8)
 }
-nav > h1{
-	
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    background-color:#D8EDF4;
+    height: 100%; 
+    position: fixed; 
 }
-nav > a{
-	text-decoration: none;
-	display: inline-block;
-	margin: .5vw;
-	padding: 1vw;
-	font-size: 2vw;
-	color: black;
-	border: solid black .2vw;
-	width: 12vw;
+.nlogo{
+	width: 80%;
+}
+li>a {
+	text-align: center;
+    display: block;
+    color: #555;
+    padding: 8px;
+    text-decoration: none;
+}
+li>a:hover {
+    background-color: #498E9B;
+    color: white;
+
 
 }
 .page{
-	width: 900px;
+    color: #0EBB5;
+	width: 800px;
+	text-align: center;
 	margin: 0 auto;
-	background-color: rgba(255,170,127,0.5);
+}
+
+.social{
+   width: 80%;
+   margin: 10%;
+   text-align: center;
+}
+.social>a>img{
+   width: 3%;
+   margin: 2%;
+}
+.social>h1{
+   width: 80%;
+   margin: 0 10%;
+   font-size: 1em;
+}
+.social>h1>img{
+   width: 80%;
+   margin: 10%;
 }
 footer{
+	clear: all;
 	width: 100%;
-	text-align: center;
-	clear: both;
-	background-color: rgba(219,219,219,0.7);
+	text-align:center;
 }
-
-
 /*Styles for Home*/
 
 .logo{
-	width: 40%;
-	margin: 0 30%;
+	position: absolute;
+	top: 100px;
+	left:25%;
+	width: 50%;
+	opacity: .1;
+	transition: 1s;
+}
+.logo:hover{
+	transition: 1s;
+	opacity: 1;
 }
 /*Styles for aboutme*/
 .aboutme{}
@@ -59,22 +99,60 @@ footer{
 
 /*Styles for Coding*/
 .gallery{
-	width: 45%;
+	width: 46%;
+	margin: 2%;
+}
+.gallery>a{
+	text-decoration: none;
+	color: #555;
 }
 .gallery > article{}
 #mine{
 	float: left;
+	height: 100%;
+	overflow: scroll;
 }
 .mycode{}
 #coollinks{
 	float: right;
+	height: 100%;
+	overflow: scroll; 
 }
 .other{}
+.mycode:hover{
+	background-color: #C3C3C3;
+	border-radius: 7px;
+}
+.other:hover{
+	background-color: #C3C3C3;
+	border-radius: 7px;
+}
+article>h1{
+	margin: 0;
+	text-align: justify;
+}
+article > img{
+	float: right;
+	width: 100px;
+	margin: 5px;
+}
+article>p{
+	text-align: justify;
 
-
+}
+#mine::-webkit-scrollbar { 
+    display: none; 
+}
+#coollinks::-webkit-scrollbar { 
+    display: none; 
+}
 /*Styles for Music*/
 
-
+.music{
+	border-color:  #498E9B;
+	border-radius: 7px;
+	border-width: 2px
+}
 
 /*Styles for eegg*/
 
