@@ -106,7 +106,8 @@ footer{
 	text-decoration: none;
 	color: #555;
 }
-.gallery > article{}
+.gallery > article{
+}
 #mine{
 	float: left;
 	height: 100%;
@@ -149,9 +150,10 @@ article>p{
 /*Styles for Music*/
 
 .music{
-	border-color:  #498E9B;
-	border-radius: 7px;
-	border-width: 2px
+	margin: 5px;
+	padding: 50px;
+	border: 5px solid #498E9B;
+	border-radius: 7px
 }
 
 /*Styles for eegg*/
